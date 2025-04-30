@@ -1,17 +1,25 @@
 ---
+import type { ComponentInstance } from 'astro';
+
 interface Props {
-	title: string;
-	body: string;
-	href: string;
-	svg: string;
+    title: string;
+    body: string;
+    href: string;
+    svg: string | any;  // Change ComponentInstance to any
 }
 
 const { href, title, body, svg } = Astro.props;
 ---
 
-<a href={href} target="_blank" class="flex rounded-xl flex-row bg-white gap-3 p-3">
-	<div class="shrink-0">
-		<img src={svg} alt="" class="w-6">
-	</div>
-	<div class="font-medium flex-1 text-sm leading-6 line-clamp-1">{title} - {body}.</div>
+<a
+    href={href}
+    target="_blank"
+    class="flex rounded-xl flex-row bg-[#191d24] gap-3 p-3 text-slate-400 font-medium"
+>
+    <div class="">
+        <img src={svg} alt="Icon" class="w-8 h-8" />
+    </div>
+    <div class="font-normal flex items-center text-sm ">
+        {title} - {body}.
+    </div>
 </a>

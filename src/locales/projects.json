@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "SASU",
+      "body": "Bot that interacts with steam from discord",
+      "href": "https://github.com/Xhand98/SASU",
+      "svg": "sasu-icon.svg"
+    },
+    {
+      "id": 2,
+      "title": "Stapy",
+      "body": "Library that connects with SteamWebAPI",
+      "href": "https://github.com/Xhand98/stapy",
+      "svg": "stapy-icon.svg"
+    },
+    {
+      "id": 3,
+      "title": "SkillSwap",
+      "body": "A platform that lets people trade skills",
+      "href": "https://github.com/Xhand98/skillswap",
+      "svg": "skillswap-icon.svg"
+    }
+  ],
+  "Donations": [
+    {
+      "id": 1,
+      "title": "Kofi",
+      "body": "Buy me a cup of coffee",
+      "href": "https://ko-fi.com/xhand98",
+      "svg": "kofi-icon.svg"
+    }
+  ]
+}
