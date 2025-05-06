@@ -1,4 +1,12 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "exclude": ["src/components/LanguageSwitcher.astro"]
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "astro",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src"]
 }
