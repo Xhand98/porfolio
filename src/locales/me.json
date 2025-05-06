@@ -1,0 +1,18 @@
+{
+  "author": {
+    "name": "Hendrick",
+    "email": "hendrickherrera9@gmail.com"
+  },
+  "intro": {
+    "es": {
+      "title": "Hendrick.is-a.dev",
+      "beforeName": "Hola, soy",
+      "afterName": "un desarrollador web/diseñador aficionado de la República Dominicana, aquí hay algunos proyectos en los que he trabajado."
+    },
+    "en": {
+      "title": "Hendrick.is-a.dev",
+      "beforeName": "Hello, I'm",
+      "afterName": "a hobbyist web developer/designer from the Dominican Republic, here are some projects I've worked on."
+    }
+  }
+}
